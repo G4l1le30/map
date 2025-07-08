@@ -607,6 +607,9 @@
                         <td colspan="2">' + (feature.properties['NAMOBJ'] !== null ? autolinker.link(String(feature.properties['NAMOBJ']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
+                        <td colspan="2">' + (feature.properties['htmlP'] !== null ? autolinker.link(String(feature.properties['htmlP']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
                         <td colspan="2">' + (feature.properties['html_popup'] !== null ? autolinker.link(String(feature.properties['html_popup']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
