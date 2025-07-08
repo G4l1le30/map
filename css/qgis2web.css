@@ -35,6 +35,9 @@
             max-height: 70vh;
             max-width: 70vw;
         }
+        .leaflet-popup-content-wrapper {
+    min-width: 400px; /* Ubah angka 400 sesuai kebutuhan Anda */
+}
         .leaflet-popup-content.media{
             width: auto!important;
             height: auto!important;
